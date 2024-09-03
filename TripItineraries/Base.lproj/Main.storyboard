@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ijl-My-JZ3">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="bcd-Km-6cC">
+            <objects>
+                <viewController id="TAw-Yr-qS9" customClass="HomeViewController" customModule="TripItineraries" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1sW-7R-fvn">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradient" translatesAutoresizingMaskIntoConstraints="NO" id="Usc-hh-PA2">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PurposeImage" translatesAutoresizingMaskIntoConstraints="NO" id="Ynb-o3-2eG">
+                                <rect key="frame" x="79" y="365.66666666666669" width="235" height="154.00000000000006"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="235" id="RYA-wL-H1H"/>
+                                    <constraint firstAttribute="height" constant="154" id="mp8-o9-PZ3"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ItinerariesImage" translatesAutoresizingMaskIntoConstraints="NO" id="O6Y-Ez-kVd">
+                                <rect key="frame" x="79" y="611.33333333333337" width="235" height="157"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="157" id="vXZ-OI-rT6"/>
+                                    <constraint firstAttribute="width" constant="235" id="zgD-QP-ALg"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mCV-fk-GbN">
+                                <rect key="frame" x="16" y="267" width="361" height="90.666666666666686"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="hRc-7i-9G8"/>
+                                    <constraint firstAttribute="height" constant="90.670000000000002" id="yrC-ss-VaR"/>
+                                </constraints>
+                                <string key="text">Trip Itineraries provides travel planning assistance for anyone arranging an exciting, fulfilling travel experience. Our travel itineraries include a detailed history of each country as well as fun descriptions of everything a traveler must see and experience while traveling to, from, or at a destination.</string>
+                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="13"/>
+                                <color key="textColor" red="0.058823529409999999" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qKu-mP-WoK">
+                                <rect key="frame" x="16" y="527.66666666666663" width="361" height="75.666666666666629"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75.670000000000002" id="Meu-ni-qxK"/>
+                                    <constraint firstAttribute="width" constant="361" id="Mo3-32-ymE"/>
+                                </constraints>
+                                <string key="text">Each itinerary contains detailed day-by-day travel suggestions that includes points of interest, sight seeing, historical interests, destination descriptions and much more. The best time of year to travel, climate conditions and travel advisories are also included.</string>
+                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="13"/>
+                                <color key="textColor" red="0.058823529409999999" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Trip Itineraries Logo" translatesAutoresizingMaskIntoConstraints="NO" id="I8Q-5c-Peu">
+                                <rect key="frame" x="76.666666666666686" y="59" width="240" height="181"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Ple-SK-1It"/>
+                                    <constraint firstAttribute="height" constant="181" id="QLG-TK-Fsd"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="LjZ-Q5-Pp6"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="qKu-mP-WoK" firstAttribute="top" secondItem="Ynb-o3-2eG" secondAttribute="bottom" constant="8" id="2uS-Sl-vWC"/>
+                            <constraint firstItem="I8Q-5c-Peu" firstAttribute="leading" secondItem="LjZ-Q5-Pp6" secondAttribute="leading" constant="76.5" id="3kK-iF-3aT"/>
+                            <constraint firstAttribute="bottom" secondItem="Usc-hh-PA2" secondAttribute="bottom" id="6Md-xD-OqT"/>
+                            <constraint firstItem="O6Y-Ez-kVd" firstAttribute="leading" secondItem="LjZ-Q5-Pp6" secondAttribute="leading" constant="79" id="7gB-vl-zTi"/>
+                            <constraint firstItem="O6Y-Ez-kVd" firstAttribute="top" secondItem="qKu-mP-WoK" secondAttribute="bottom" constant="8" id="BFg-PA-8Ns"/>
+                            <constraint firstItem="Usc-hh-PA2" firstAttribute="top" secondItem="1sW-7R-fvn" secondAttribute="top" id="HnS-O0-MdL"/>
+                            <constraint firstItem="Usc-hh-PA2" firstAttribute="trailing" secondItem="LjZ-Q5-Pp6" secondAttribute="trailing" id="PD0-zf-O4p"/>
+                            <constraint firstItem="LjZ-Q5-Pp6" firstAttribute="trailing" secondItem="qKu-mP-WoK" secondAttribute="trailing" constant="16" id="U2X-M5-2Cc"/>
+                            <constraint firstItem="LjZ-Q5-Pp6" firstAttribute="trailing" secondItem="O6Y-Ez-kVd" secondAttribute="trailing" constant="79" id="Z3C-d4-zfZ"/>
+                            <constraint firstItem="LjZ-Q5-Pp6" firstAttribute="trailing" secondItem="I8Q-5c-Peu" secondAttribute="trailing" constant="76.5" id="bSj-QP-JSz"/>
+                            <constraint firstItem="mCV-fk-GbN" firstAttribute="top" secondItem="I8Q-5c-Peu" secondAttribute="bottom" constant="27" id="eBb-fm-2Xx"/>
+                            <constraint firstItem="qKu-mP-WoK" firstAttribute="leading" secondItem="LjZ-Q5-Pp6" secondAttribute="leading" constant="16" id="ft5-01-1JZ"/>
+                            <constraint firstItem="Usc-hh-PA2" firstAttribute="leading" secondItem="LjZ-Q5-Pp6" secondAttribute="leading" id="gh8-eo-9CR"/>
+                            <constraint firstItem="Ynb-o3-2eG" firstAttribute="top" secondItem="mCV-fk-GbN" secondAttribute="bottom" constant="8" id="i0h-f0-tmT"/>
+                            <constraint firstItem="LjZ-Q5-Pp6" firstAttribute="trailing" secondItem="Ynb-o3-2eG" secondAttribute="trailing" constant="79" id="mN6-2j-3yC"/>
+                            <constraint firstItem="I8Q-5c-Peu" firstAttribute="top" secondItem="1sW-7R-fvn" secondAttribute="top" constant="59" id="oNy-Ok-XQu"/>
+                            <constraint firstItem="mCV-fk-GbN" firstAttribute="leading" secondItem="LjZ-Q5-Pp6" secondAttribute="leading" constant="16" id="qvW-Am-DXz"/>
+                            <constraint firstItem="Ynb-o3-2eG" firstAttribute="leading" secondItem="LjZ-Q5-Pp6" secondAttribute="leading" constant="79" id="tqF-1P-nNC"/>
+                            <constraint firstItem="LjZ-Q5-Pp6" firstAttribute="trailing" secondItem="mCV-fk-GbN" secondAttribute="trailing" constant="16" id="ynK-N7-Dc2"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="JaE-18-ZkT"/>
+                    <connections>
+                        <outlet property="itinerariesImage" destination="O6Y-Ez-kVd" id="Qds-fS-5TI"/>
+                        <outlet property="purposeImage" destination="Ynb-o3-2eG" id="fiq-LD-62W"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H9u-be-ICI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1991.6030534351144" y="-1292.2535211267607"/>
+        </scene>
+        <!--Image View Controller-->
+        <scene sceneID="X4k-zW-yMx">
+            <objects>
+                <viewController storyboardIdentifier="ShowImages" modalPresentationStyle="fullScreen" id="Jkt-BS-seH" customClass="ImageViewController" customModule="TripItineraries" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WV8-Uw-Adl">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BOB-Us-QBM">
+                                <rect key="frame" x="0.0" y="59" width="393" height="793"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4gx-TG-awF">
+                                <rect key="frame" x="0.0" y="59" width="74" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" name="CustomLabelButtonAndTextColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Done">
+                                    <fontDescription key="titleFontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="doneButtonTapped:" destination="Jkt-BS-seH" eventType="touchUpInside" id="5kl-Ia-iIl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="WvK-OG-R84"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="BOB-Us-QBM" firstAttribute="leading" secondItem="WvK-OG-R84" secondAttribute="leading" id="GyH-JX-Wn4"/>
+                            <constraint firstItem="BOB-Us-QBM" firstAttribute="top" secondItem="WvK-OG-R84" secondAttribute="top" id="HMQ-LC-zn7"/>
+                            <constraint firstItem="BOB-Us-QBM" firstAttribute="trailing" secondItem="WvK-OG-R84" secondAttribute="trailing" id="Toj-s2-LWw"/>
+                            <constraint firstAttribute="bottom" secondItem="BOB-Us-QBM" secondAttribute="bottom" id="ZiQ-EB-lbo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="doneButton" destination="4gx-TG-awF" id="hOf-wl-08P"/>
+                        <outlet property="imageView" destination="BOB-Us-QBM" id="wLa-i2-OI7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QTr-pM-Fwn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2744" y="-1292"/>
+        </scene>
+        <!--Destinations-->
+        <scene sceneID="xkk-qr-adG">
+            <objects>
+                <viewController id="K0q-TG-y1M" customClass="DestinationsViewController" customModule="TripItineraries" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aj8-JV-ugI">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="aZE-lI-YfW">
+                                <rect key="frame" x="0.0" y="103" width="393" height="666"/>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <label key="tableHeaderView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Destinations" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FwF-zM-8lj">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="35"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="30"/>
+                                    <color key="textColor" red="0.058823529409999999" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ContinentCell" id="ZBt-Om-oxX">
+                                        <rect key="frame" x="0.0" y="85" width="393" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZBt-Om-oxX" id="yQA-L7-6tK">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CountryCell" id="3BR-zX-ZDP">
+                                        <rect key="frame" x="0.0" y="128.66666793823242" width="393" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3BR-zX-ZDP" id="hkA-fe-Jzc">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RegionCell" id="NPA-Cc-24S">
+                                        <rect key="frame" x="0.0" y="172.33333587646484" width="393" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NPA-Cc-24S" id="xGa-YG-0ah">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lId-8k-qDa"/>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.90980392156862744" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="aZE-lI-YfW" firstAttribute="top" secondItem="lId-8k-qDa" secondAttribute="top" id="1jM-5G-pcT"/>
+                            <constraint firstItem="aZE-lI-YfW" firstAttribute="trailing" secondItem="lId-8k-qDa" secondAttribute="trailing" id="bvA-Td-GoN"/>
+                            <constraint firstItem="aZE-lI-YfW" firstAttribute="bottom" secondItem="lId-8k-qDa" secondAttribute="bottom" id="nAY-1b-RfS"/>
+                            <constraint firstItem="aZE-lI-YfW" firstAttribute="leading" secondItem="lId-8k-qDa" secondAttribute="leading" id="se0-M3-Bs9"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Destinations" image="mappin.and.ellipse" catalog="system" id="pmZ-h9-4R0"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="tableView" destination="aZE-lI-YfW" id="u6g-lg-Qm1"/>
+                        <segue destination="cHr-CD-TMZ" kind="show" identifier="ShowPDF" id="Rb9-gl-m36"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="diS-kb-Od4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1991.6030534351144" y="-639.43661971830988"/>
+        </scene>
+        <!--PDFViewController-->
+        <scene sceneID="hJM-tm-bnZ">
+            <objects>
+                <viewController title="PDFViewController" id="cHr-CD-TMZ" customClass="PDFViewController" customModule="TripItineraries" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="9u6-SS-IkR">
+                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="done" id="Va4-ud-N6M"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EY8-OT-IcY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2743" y="-318"/>
+        </scene>
+        <!--Activities-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ActivitiesViewController" customModule="TripItineraries" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="G0t-y9-baj">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="769"/>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <label key="tableHeaderView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Activities" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GNQ-w2-9aC">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="35"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="30"/>
+                                    <color key="textColor" red="0.058823529409999999" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ActivityCell" id="Ajk-r8-59K">
+                                        <rect key="frame" x="0.0" y="85" width="393" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ajk-r8-59K" id="AhE-gh-rpF">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="LocationCell" id="bnt-jN-KcQ">
+                                        <rect key="frame" x="0.0" y="128.66666793823242" width="393" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bnt-jN-KcQ" id="YDd-Yj-gv8">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="G0t-y9-baj" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="A3t-Bf-L1a"/>
+                            <constraint firstItem="G0t-y9-baj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="RNN-HS-sAM"/>
+                            <constraint firstItem="G0t-y9-baj" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="mXC-si-Epi"/>
+                            <constraint firstItem="G0t-y9-baj" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="oeP-de-2Fn"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Activities" image="figure.walk" catalog="system" id="boQ-Ta-no0"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="tableView" destination="G0t-y9-baj" id="Tgz-xS-TUw"/>
+                        <segue destination="cHr-CD-TMZ" kind="show" identifier="ShowPDF" id="cG3-5E-3nn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1991.6030534351144" y="19.718309859154932"/>
+        </scene>
+        <!--Contact-->
+        <scene sceneID="QRk-m6-vWz">
+            <objects>
+                <viewController id="RoU-HL-2a0" customClass="ContactViewController" customModule="TripItineraries" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Eo8-Bh-FX0">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aboutbg" translatesAutoresizingMaskIntoConstraints="NO" id="Z8J-9P-cW8">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="878"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="c/o Education Systems" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oyh-Ds-pna">
+                                <rect key="frame" x="168" y="170" width="209" height="23.333333333333343"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="20"/>
+                                <color key="textColor" red="0.015686274510000001" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kst-VM-XYR">
+                                <rect key="frame" x="142" y="59" width="109" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="109" id="TRa-zP-xRL"/>
+                                    <constraint firstAttribute="height" constant="35" id="aHh-sj-0of"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="30"/>
+                                <color key="textColor" red="0.058823529411764705" green="0.21568627450980393" blue="0.32941176470588235" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T6j-nr-ES7">
+                                <rect key="frame" x="187" y="193.33333333333334" width="206" height="60.666666666666657"/>
+                                <color key="tintColor" red="0.015686274510000001" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">5642 W. Sunkist Dr.
+Kearns, UT 84118</string>
+                                    <fontDescription key="titleFontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="tripItinerariesAddressButtonTapped:" destination="RoU-HL-2a0" eventType="touchUpInside" id="ZAV-Bc-hyk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y32-1s-biS">
+                                <rect key="frame" x="284.33333333333331" y="59" width="92.666666666666686" height="36"/>
+                                <color key="tintColor" systemColor="systemRedColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Log Out">
+                                    <fontDescription key="titleFontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="19"/>
+                                    <color key="baseForegroundColor" systemColor="systemRedColor"/>
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="LogInButton:" destination="ZEZ-af-ci9" eventType="touchUpInside" id="uHY-eB-V9L"/>
+                                    <action selector="logOutButtonTapped:" destination="RoU-HL-2a0" eventType="touchUpInside" id="27g-Ev-SAi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oVt-x9-ayZ">
+                                <rect key="frame" x="105" y="291.33333333333331" width="288" height="37.333333333333314"/>
+                                <color key="tintColor" red="0.015686274510000001" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="info@educationsystems.com">
+                                    <fontDescription key="titleFontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="tripItinerariesEmailAddressButtonTapped:" destination="RoU-HL-2a0" eventType="touchUpInside" id="tRT-a3-Cpg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trip Itineraries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UMP-rX-Rgl">
+                                <rect key="frame" x="110" y="132" width="173" height="30"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="25"/>
+                                <color key="textColor" red="0.058823529409999999" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJ7-qI-deA">
+                                <rect key="frame" x="223.66666666666663" y="254.00000000000003" width="169.33333333333337" height="37.333333333333343"/>
+                                <color key="tintColor" red="0.015686274510000001" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="(801) 671-6466">
+                                    <fontDescription key="titleFontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="tripItinerariesPhoneNumberButtonTapped:" destination="RoU-HL-2a0" eventType="touchUpInside" id="s9P-GU-NuD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PgM-26-oeO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jJ7-qI-deA" firstAttribute="top" secondItem="T6j-nr-ES7" secondAttribute="bottom" id="3lF-XV-Ta0"/>
+                            <constraint firstItem="jJ7-qI-deA" firstAttribute="trailing" secondItem="PgM-26-oeO" secondAttribute="trailing" id="8dJ-bA-Web"/>
+                            <constraint firstItem="oVt-x9-ayZ" firstAttribute="top" secondItem="jJ7-qI-deA" secondAttribute="bottom" id="97m-aV-uuX"/>
+                            <constraint firstItem="T6j-nr-ES7" firstAttribute="trailing" secondItem="PgM-26-oeO" secondAttribute="trailing" id="DZe-7r-t0s"/>
+                            <constraint firstItem="Kst-VM-XYR" firstAttribute="centerX" secondItem="Eo8-Bh-FX0" secondAttribute="centerX" id="FtG-S9-DHf"/>
+                            <constraint firstItem="T6j-nr-ES7" firstAttribute="top" secondItem="oyh-Ds-pna" secondAttribute="bottom" id="N42-d1-xy3"/>
+                            <constraint firstAttribute="trailing" secondItem="Y32-1s-biS" secondAttribute="trailing" constant="16" id="QmP-dd-H4P"/>
+                            <constraint firstItem="Z8J-9P-cW8" firstAttribute="top" secondItem="Eo8-Bh-FX0" secondAttribute="top" id="SR9-27-keB"/>
+                            <constraint firstItem="Y32-1s-biS" firstAttribute="top" secondItem="Eo8-Bh-FX0" secondAttribute="top" constant="59" id="Xg0-AA-rUm"/>
+                            <constraint firstItem="Z8J-9P-cW8" firstAttribute="leading" secondItem="Eo8-Bh-FX0" secondAttribute="leading" id="YQk-tL-WB6"/>
+                            <constraint firstItem="Kst-VM-XYR" firstAttribute="top" secondItem="Eo8-Bh-FX0" secondAttribute="top" constant="59" id="ZYX-Hy-GQJ"/>
+                            <constraint firstItem="oyh-Ds-pna" firstAttribute="top" secondItem="UMP-rX-Rgl" secondAttribute="bottom" constant="8" id="cdQ-b0-iNX"/>
+                            <constraint firstItem="PgM-26-oeO" firstAttribute="trailing" secondItem="oyh-Ds-pna" secondAttribute="trailing" constant="16" id="dE5-fe-g5G"/>
+                            <constraint firstAttribute="bottom" secondItem="Z8J-9P-cW8" secondAttribute="bottom" constant="-26" id="tHn-pa-ibI"/>
+                            <constraint firstItem="Z8J-9P-cW8" firstAttribute="trailing" secondItem="PgM-26-oeO" secondAttribute="trailing" id="ueP-dQ-hF7"/>
+                            <constraint firstItem="UMP-rX-Rgl" firstAttribute="top" secondItem="Kst-VM-XYR" secondAttribute="bottom" constant="38" id="vrY-z2-vKY"/>
+                            <constraint firstItem="UMP-rX-Rgl" firstAttribute="centerX" secondItem="Eo8-Bh-FX0" secondAttribute="centerX" id="x79-Jc-6Cm"/>
+                            <constraint firstItem="oVt-x9-ayZ" firstAttribute="trailing" secondItem="PgM-26-oeO" secondAttribute="trailing" id="yxM-wS-0rs"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Contact" image="text.bubble" catalog="system" id="D7U-8W-FAF"/>
+                    <connections>
+                        <outlet property="logOutButton" destination="Y32-1s-biS" id="QJk-ZV-RQW"/>
+                        <outlet property="tripItinerariesAddressButton" destination="T6j-nr-ES7" id="cZg-jg-29B"/>
+                        <outlet property="tripItinerariesEmailAddress" destination="oVt-x9-ayZ" id="e5r-AG-05Y"/>
+                        <outlet property="tripItinerariesPhoneNumberButton" destination="jJ7-qI-deA" id="aJv-d3-Oi7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dvm-U5-I55" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1991.6030534351144" y="1346.4788732394368"/>
+        </scene>
+        <!--About Us-->
+        <scene sceneID="fzF-LU-n8p">
+            <objects>
+                <viewController id="yjb-2F-3xS" customClass="AboutUsViewController" customModule="TripItineraries" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LYF-qC-a5d">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XNa-Mh-WmM">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="769"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pqP-aD-W0U">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sxR-uC-uYP">
+                                                <rect key="frame" x="8" y="43" width="377" height="260.33333333333331"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="260.32999999999998" id="D71-7F-Bsx"/>
+                                                    <constraint firstAttribute="width" constant="377" id="iSu-9T-1WE"/>
+                                                </constraints>
+                                                <string key="text">Trip Itineraries is a subsidiary of Education Systems LLC. Sharon Scott founded Education Systems in the early 1990s. Before Sharon passed away in 2021, she had been involved in travel for over 35 years, beginning as the director of a private post-secondary travel school. Under her guidance, she expanded a single travel school into a series of travel schools in the western United States. These schools eventually moved to an online format and are currently utilized by colleges and schools in the United States and Canada. Now owned by Deonna Weight, Education Systems is expanding by offering itineraries to help enhance anyone's travel experiences.</string>
+                                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="16"/>
+                                                <color key="textColor" red="0.015686274510000001" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d06-DG-M4n">
+                                                <rect key="frame" x="16" y="578.33333333333337" width="361" height="90.666666666666629"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="90.670000000000002" id="3QL-EO-8Tx"/>
+                                                    <constraint firstAttribute="width" constant="361" id="RqH-tm-oUg"/>
+                                                </constraints>
+                                                <string key="text">Deonna is a long-time employee and manager of Education Systems. She began as an instructor, providing subject matter expertise for Sabre™, Apollo™, and Fares and Tickets courses. Her favorite course is Destination Geography and loves learning about cultures and destinations around the world.</string>
+                                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="13"/>
+                                                <color key="textColor" red="0.015686274510000001" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1eS-Fr-fp9">
+                                                <rect key="frame" x="16" y="1156.6666666666667" width="361" height="60.666666666666742"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60.670000000000002" id="88M-9H-yZ2"/>
+                                                    <constraint firstAttribute="width" constant="361" id="BcC-R8-bWK"/>
+                                                </constraints>
+                                                <string key="text">Rebecca has been helping with various projects at Education Systems for over 20 years. She began stuffing envelopes and now helps manage data and beta tests online content.</string>
+                                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="13"/>
+                                                <color key="textColor" red="0.015686274510000001" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9QG-Ng-eqk">
+                                                <rect key="frame" x="16" y="901" width="361" height="75.666666666666629"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="361" id="1aG-JU-cMg"/>
+                                                    <constraint firstAttribute="height" constant="75.670000000000002" id="QZz-wx-Nvm"/>
+                                                </constraints>
+                                                <string key="text">Clarissa is a recent college graduate from Brigham Young University-Idaho. She majored in English and now works as both a freelance editor and administrative assistant. Clarissa's talents center around design and editing for both on and offline content.</string>
+                                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="13"/>
+                                                <color key="textColor" red="0.015686274510000001" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MJ is a recent graduate from Mountainland Technical College. He was hired on as a Junior iOS Developer intern to make our app." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XCR-OB-VNs">
+                                                <rect key="frame" x="16" y="1407.3333333333333" width="361" height="45.333333333333258"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="45.329999999999998" id="P2v-FY-7Hv"/>
+                                                    <constraint firstAttribute="width" constant="361" id="e8t-ws-aII"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="13"/>
+                                                <color key="textColor" red="0.015686274510000001" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clarissa" translatesAutoresizingMaskIntoConstraints="NO" id="r3h-lh-a8P">
+                                                <rect key="frame" x="125" y="677" width="143" height="216"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="216" id="9Y6-nI-8lH"/>
+                                                    <constraint firstAttribute="width" constant="143" id="jMM-iv-bsA"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" image="deonna" translatesAutoresizingMaskIntoConstraints="NO" id="DDf-ra-ojH">
+                                                <rect key="frame" x="124.66666666666669" y="311.33333333333331" width="144" height="258.99999999999994"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="144" id="8AE-Zo-QU0"/>
+                                                    <constraint firstAttribute="height" constant="259" id="9Ih-2N-P9U"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rebecca" translatesAutoresizingMaskIntoConstraints="NO" id="311-Sw-TAX">
+                                                <rect key="frame" x="85.666666666666686" y="984.66666666666652" width="222" height="164"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="164" id="yRF-LF-twb"/>
+                                                    <constraint firstAttribute="width" constant="222" id="zTd-r6-nfc"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mj" translatesAutoresizingMaskIntoConstraints="NO" id="f8r-x9-hI2">
+                                                <rect key="frame" x="80" y="1225.3333333333333" width="233" height="174"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="174" id="Agg-iO-yhi"/>
+                                                    <constraint firstAttribute="width" constant="233" id="sfT-7f-cuY"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ABc-TR-w7s">
+                                                <rect key="frame" x="134" y="0.0" width="125.33333333333331" height="35"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="125.33" id="Eab-1F-3sj"/>
+                                                    <constraint firstAttribute="height" constant="35" id="Rz4-uN-oHA"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="30"/>
+                                                <color key="textColor" red="0.058823529409999999" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="ABc-TR-w7s" firstAttribute="top" secondItem="pqP-aD-W0U" secondAttribute="top" id="4c0-s9-hpf"/>
+                                            <constraint firstAttribute="trailing" secondItem="ABc-TR-w7s" secondAttribute="trailing" constant="133.66999999999999" id="4nZ-vh-k8g"/>
+                                            <constraint firstItem="f8r-x9-hI2" firstAttribute="top" secondItem="1eS-Fr-fp9" secondAttribute="bottom" constant="8" id="5Y3-7H-sCP"/>
+                                            <constraint firstItem="1eS-Fr-fp9" firstAttribute="top" secondItem="311-Sw-TAX" secondAttribute="bottom" constant="8" id="5dd-4g-RzB"/>
+                                            <constraint firstItem="XCR-OB-VNs" firstAttribute="top" secondItem="f8r-x9-hI2" secondAttribute="bottom" constant="8" id="6lC-XY-qQA"/>
+                                            <constraint firstItem="9QG-Ng-eqk" firstAttribute="top" secondItem="r3h-lh-a8P" secondAttribute="bottom" constant="8" id="Gs8-p1-8pg"/>
+                                            <constraint firstItem="ABc-TR-w7s" firstAttribute="leading" secondItem="pqP-aD-W0U" secondAttribute="leading" constant="134" id="I1u-Cr-9B6"/>
+                                            <constraint firstItem="XCR-OB-VNs" firstAttribute="leading" secondItem="pqP-aD-W0U" secondAttribute="leading" constant="16" id="JLB-0Z-cS0"/>
+                                            <constraint firstAttribute="height" constant="1500" id="KEE-NY-SoH"/>
+                                            <constraint firstAttribute="trailing" secondItem="r3h-lh-a8P" secondAttribute="trailing" constant="125" id="Ou6-71-5wy"/>
+                                            <constraint firstItem="1eS-Fr-fp9" firstAttribute="leading" secondItem="pqP-aD-W0U" secondAttribute="leading" constant="16" id="ROV-tI-KW2"/>
+                                            <constraint firstItem="ABc-TR-w7s" firstAttribute="centerX" secondItem="pqP-aD-W0U" secondAttribute="centerX" id="V16-mf-I7u"/>
+                                            <constraint firstItem="9QG-Ng-eqk" firstAttribute="leading" secondItem="pqP-aD-W0U" secondAttribute="leading" constant="16" id="X83-Kf-FHz"/>
+                                            <constraint firstItem="sxR-uC-uYP" firstAttribute="leading" secondItem="pqP-aD-W0U" secondAttribute="leading" constant="8" id="YBF-kO-ctc"/>
+                                            <constraint firstAttribute="trailing" secondItem="1eS-Fr-fp9" secondAttribute="trailing" constant="16" id="ZWe-ni-nxP"/>
+                                            <constraint firstItem="sxR-uC-uYP" firstAttribute="top" secondItem="ABc-TR-w7s" secondAttribute="bottom" constant="8" id="ZtZ-p8-prz"/>
+                                            <constraint firstItem="r3h-lh-a8P" firstAttribute="leading" secondItem="pqP-aD-W0U" secondAttribute="leading" constant="125" id="aiS-Jn-DCp"/>
+                                            <constraint firstItem="311-Sw-TAX" firstAttribute="leading" secondItem="pqP-aD-W0U" secondAttribute="leading" constant="85.5" id="bZv-Qr-kKe"/>
+                                            <constraint firstAttribute="trailing" secondItem="311-Sw-TAX" secondAttribute="trailing" constant="85.5" id="cWK-xz-lt9"/>
+                                            <constraint firstAttribute="trailing" secondItem="9QG-Ng-eqk" secondAttribute="trailing" constant="16" id="eDY-OV-EUq"/>
+                                            <constraint firstItem="DDf-ra-ojH" firstAttribute="leading" secondItem="pqP-aD-W0U" secondAttribute="leading" constant="124.5" id="ert-TH-VwA"/>
+                                            <constraint firstItem="311-Sw-TAX" firstAttribute="top" secondItem="9QG-Ng-eqk" secondAttribute="bottom" constant="8" id="fYV-S2-8FO"/>
+                                            <constraint firstItem="f8r-x9-hI2" firstAttribute="leading" secondItem="pqP-aD-W0U" secondAttribute="leading" constant="80" id="gJK-EK-xea"/>
+                                            <constraint firstAttribute="trailing" secondItem="sxR-uC-uYP" secondAttribute="trailing" constant="8" id="i8l-Mb-g5T"/>
+                                            <constraint firstAttribute="trailing" secondItem="DDf-ra-ojH" secondAttribute="trailing" constant="124.5" id="jIb-Kd-nHP"/>
+                                            <constraint firstAttribute="trailing" secondItem="d06-DG-M4n" secondAttribute="trailing" constant="16" id="kdf-gl-nvK"/>
+                                            <constraint firstItem="r3h-lh-a8P" firstAttribute="top" secondItem="d06-DG-M4n" secondAttribute="bottom" constant="8" id="r5b-pl-Us2"/>
+                                            <constraint firstAttribute="trailing" secondItem="XCR-OB-VNs" secondAttribute="trailing" constant="16" id="wM6-oc-ZGH"/>
+                                            <constraint firstItem="DDf-ra-ojH" firstAttribute="top" secondItem="sxR-uC-uYP" secondAttribute="bottom" constant="8" id="x46-Bx-WKx"/>
+                                            <constraint firstItem="d06-DG-M4n" firstAttribute="top" secondItem="DDf-ra-ojH" secondAttribute="bottom" constant="8" id="xZ2-VN-Wej"/>
+                                            <constraint firstItem="d06-DG-M4n" firstAttribute="leading" secondItem="pqP-aD-W0U" secondAttribute="leading" constant="16" id="zpu-42-kGt"/>
+                                            <constraint firstAttribute="trailing" secondItem="f8r-x9-hI2" secondAttribute="trailing" constant="80" id="zuA-cf-m3J"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="pqP-aD-W0U" secondAttribute="trailing" id="AaC-mp-5wR"/>
+                                    <constraint firstItem="pqP-aD-W0U" firstAttribute="leading" secondItem="XNa-Mh-WmM" secondAttribute="leading" id="Eeg-QW-2It"/>
+                                    <constraint firstItem="pqP-aD-W0U" firstAttribute="top" secondItem="XNa-Mh-WmM" secondAttribute="top" id="Ksu-Tc-Cam"/>
+                                    <constraint firstAttribute="bottom" secondItem="pqP-aD-W0U" secondAttribute="bottom" id="YWd-pm-Gex"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ran-sK-OLr"/>
+                        <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="XNa-Mh-WmM" firstAttribute="trailing" secondItem="Ran-sK-OLr" secondAttribute="trailing" id="8Od-ZN-RBM"/>
+                            <constraint firstItem="XNa-Mh-WmM" firstAttribute="leading" secondItem="Ran-sK-OLr" secondAttribute="leading" id="Ja5-NN-z3t"/>
+                            <constraint firstItem="XNa-Mh-WmM" firstAttribute="bottom" secondItem="Ran-sK-OLr" secondAttribute="bottom" id="MxF-sK-0t2"/>
+                            <constraint firstItem="XNa-Mh-WmM" firstAttribute="top" secondItem="LYF-qC-a5d" secondAttribute="top" id="T33-9E-pGU"/>
+                            <constraint firstItem="pqP-aD-W0U" firstAttribute="width" secondItem="LYF-qC-a5d" secondAttribute="width" id="b7v-3S-qqI"/>
+                            <constraint firstItem="pqP-aD-W0U" firstAttribute="height" secondItem="LYF-qC-a5d" secondAttribute="height" multiplier="1.76056" id="kf9-wd-o4p"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="About Us" image="info.square" catalog="system" id="2ph-e9-Xta"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="aboutUsLabel" destination="ABc-TR-w7s" id="9g3-ce-c8k"/>
+                        <outlet property="clarissaImage" destination="r3h-lh-a8P" id="IP8-Hn-F8r"/>
+                        <outlet property="clarissaLabel" destination="9QG-Ng-eqk" id="M7K-05-Dzj"/>
+                        <outlet property="deonnaImage" destination="DDf-ra-ojH" id="y1r-2V-sc9"/>
+                        <outlet property="deonnaLabel" destination="d06-DG-M4n" id="6HL-km-zfi"/>
+                        <outlet property="mjImage" destination="f8r-x9-hI2" id="Edo-9d-hS8"/>
+                        <outlet property="mjLabel" destination="XCR-OB-VNs" id="1cf-Vb-fCF"/>
+                        <outlet property="rebeccaImage" destination="311-Sw-TAX" id="M1O-uL-J7h"/>
+                        <outlet property="rebeccaLabel" destination="1eS-Fr-fp9" id="Uiz-n8-f5b"/>
+                        <outlet property="scrollView" destination="XNa-Mh-WmM" id="d3z-Dt-uF8"/>
+                        <outlet property="tripItinerariesLabel" destination="sxR-uC-uYP" id="6fm-CE-Fnf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2U3-aH-0gp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1991.6030534351144" y="676.76056338028172"/>
+        </scene>
+        <!--Log In View Controller-->
+        <scene sceneID="hrH-YM-P5w">
+            <objects>
+                <viewController id="ZEZ-af-ci9" customClass="LogInViewController" customModule="TripItineraries" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Du0-C0-9mx">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradient" translatesAutoresizingMaskIntoConstraints="NO" id="GnX-H6-4T4">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Trip Itineraries Logo" translatesAutoresizingMaskIntoConstraints="NO" id="8hv-Mb-ArQ">
+                                <rect key="frame" x="76.666666666666686" y="59" width="240" height="181"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="23R-2T-O4f"/>
+                                    <constraint firstAttribute="height" constant="181" id="G9j-35-v0C"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pfx-b7-lLw">
+                                <rect key="frame" x="16" y="425" width="112" height="21"/>
+                                <color key="tintColor" red="0.31764705879999999" green="0.35294117650000001" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="18"/>
+                                <color key="textColor" red="0.058823529409999999" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="J4y-gJ-rko">
+                                <rect key="frame" x="16" y="374" width="361" height="34"/>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.058823529409999999" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="XOw-tF-mOm"/>
+                                    <constraint firstAttribute="height" constant="34" id="cbY-tT-ANE"/>
+                                </constraints>
+                                <color key="textColor" red="0.058823529409999999" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tSw-V2-yBW">
+                                <rect key="frame" x="16" y="456" width="361" height="34"/>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.058823529409999999" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="4sQ-s8-7DN"/>
+                                    <constraint firstAttribute="width" constant="361" id="wtF-gs-AxF"/>
+                                </constraints>
+                                <color key="textColor" red="0.058823529409999999" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SEt-U0-S5t">
+                                <rect key="frame" x="140" y="690" width="113" height="41"/>
+                                <color key="tintColor" red="0.31764705879999999" green="0.35294117650000001" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Log In">
+                                    <fontDescription key="titleFontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="23"/>
+                                    <color key="baseForegroundColor" red="0.058823529409999999" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="logInButtonTapped:" destination="ZEZ-af-ci9" eventType="touchUpInside" id="Jnx-eU-YQL"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="goI-Ge-VcX">
+                                <rect key="frame" x="16" y="343" width="112" height="21"/>
+                                <color key="tintColor" red="0.058823529409999999" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="18"/>
+                                <color key="textColor" red="0.058823529409999999" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l6h-o7-3HW">
+                                <rect key="frame" x="335" y="469" width="41" height="8"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="41" id="J8G-MZ-GIm"/>
+                                    <constraint firstAttribute="height" constant="8" id="zAm-gk-Tef"/>
+                                </constraints>
+                                <color key="tintColor" red="0.058823529409999999" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="eye" catalog="system"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vsL-XA-xaS"/>
+                        <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="vsL-XA-xaS" firstAttribute="trailing" secondItem="8hv-Mb-ArQ" secondAttribute="trailing" constant="76.329999999999998" id="25q-kP-C0Y"/>
+                            <constraint firstItem="vsL-XA-xaS" firstAttribute="bottom" secondItem="l6h-o7-3HW" secondAttribute="bottom" constant="341" id="2fW-eJ-woZ"/>
+                            <constraint firstItem="GnX-H6-4T4" firstAttribute="leading" secondItem="vsL-XA-xaS" secondAttribute="leading" id="52z-NS-GZG"/>
+                            <constraint firstItem="vsL-XA-xaS" firstAttribute="trailing" secondItem="l6h-o7-3HW" secondAttribute="trailing" constant="17" id="6bI-Bg-tsr"/>
+                            <constraint firstItem="8hv-Mb-ArQ" firstAttribute="leading" secondItem="vsL-XA-xaS" secondAttribute="leading" constant="76.670000000000002" id="7kd-Y7-hvi"/>
+                            <constraint firstItem="vsL-XA-xaS" firstAttribute="trailing" secondItem="tSw-V2-yBW" secondAttribute="trailing" constant="16" id="AoB-I4-kFT"/>
+                            <constraint firstItem="SEt-U0-S5t" firstAttribute="leading" secondItem="vsL-XA-xaS" secondAttribute="leading" constant="140" id="IV4-E0-QoG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="l6h-o7-3HW" secondAttribute="trailing" constant="1" id="LBY-lO-GYW"/>
+                            <constraint firstAttribute="bottom" secondItem="GnX-H6-4T4" secondAttribute="bottom" id="RwK-e9-B4h"/>
+                            <constraint firstItem="SEt-U0-S5t" firstAttribute="top" secondItem="tSw-V2-yBW" secondAttribute="bottom" constant="200" id="SlR-gZ-AyN"/>
+                            <constraint firstItem="8hv-Mb-ArQ" firstAttribute="top" secondItem="Du0-C0-9mx" secondAttribute="top" constant="59" id="Tk2-PS-hKI"/>
+                            <constraint firstItem="l6h-o7-3HW" firstAttribute="top" secondItem="J4y-gJ-rko" secondAttribute="bottom" constant="61" id="U8j-Mx-3RF"/>
+                            <constraint firstItem="goI-Ge-VcX" firstAttribute="leading" secondItem="vsL-XA-xaS" secondAttribute="leading" constant="16" id="UJc-iv-Dmt"/>
+                            <constraint firstItem="vsL-XA-xaS" firstAttribute="trailing" secondItem="goI-Ge-VcX" secondAttribute="trailing" constant="265" id="a7G-qa-N1b"/>
+                            <constraint firstItem="GnX-H6-4T4" firstAttribute="top" secondItem="Du0-C0-9mx" secondAttribute="top" id="cj3-sR-naI"/>
+                            <constraint firstItem="tSw-V2-yBW" firstAttribute="top" secondItem="J4y-gJ-rko" secondAttribute="bottom" constant="48" id="doF-mB-p5e"/>
+                            <constraint firstItem="vsL-XA-xaS" firstAttribute="trailing" secondItem="SEt-U0-S5t" secondAttribute="trailing" constant="140" id="edF-gC-G2R"/>
+                            <constraint firstItem="GnX-H6-4T4" firstAttribute="trailing" secondItem="vsL-XA-xaS" secondAttribute="trailing" id="jgM-cr-xeW"/>
+                            <constraint firstItem="vsL-XA-xaS" firstAttribute="trailing" secondItem="Pfx-b7-lLw" secondAttribute="trailing" constant="265" id="lHX-U6-tyJ"/>
+                            <constraint firstItem="vsL-XA-xaS" firstAttribute="bottom" secondItem="SEt-U0-S5t" secondAttribute="bottom" constant="87" id="lgb-UH-VB0"/>
+                            <constraint firstItem="tSw-V2-yBW" firstAttribute="leading" secondItem="vsL-XA-xaS" secondAttribute="leading" constant="16" id="oBA-NL-hOS"/>
+                            <constraint firstItem="Pfx-b7-lLw" firstAttribute="top" secondItem="J4y-gJ-rko" secondAttribute="bottom" constant="17" id="opZ-Co-F2z"/>
+                            <constraint firstItem="J4y-gJ-rko" firstAttribute="leading" secondItem="vsL-XA-xaS" secondAttribute="leading" constant="16" id="qP9-uM-Ri3"/>
+                            <constraint firstItem="J4y-gJ-rko" firstAttribute="top" secondItem="goI-Ge-VcX" secondAttribute="bottom" constant="10" id="vc9-3t-buf"/>
+                            <constraint firstItem="Pfx-b7-lLw" firstAttribute="leading" secondItem="vsL-XA-xaS" secondAttribute="leading" constant="16" id="wMr-8V-CHc"/>
+                            <constraint firstItem="vsL-XA-xaS" firstAttribute="trailing" secondItem="J4y-gJ-rko" secondAttribute="trailing" constant="16" id="zz1-SW-MgC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="onP-SX-Qzx"/>
+                    <connections>
+                        <outlet property="logInButton" destination="SEt-U0-S5t" id="HDw-yy-Ucz"/>
+                        <outlet property="passwordTextField" destination="tSw-V2-yBW" id="rVi-R3-dtP"/>
+                        <outlet property="togglePasswordButton" destination="l6h-o7-3HW" id="YbA-YV-dQL"/>
+                        <outlet property="userNameTextField" destination="J4y-gJ-rko" id="dLe-wz-oSs"/>
+                        <segue destination="j5V-3i-fWz" kind="show" identifier="LogIn" id="jTp-ed-Rqz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Far-cN-L4t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="194.6564885496183" y="19.718309859154932"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="g08-ge-woJ">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="j5V-3i-fWz" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="6cY-UL-qHr"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="g1f-ij-NM0">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="0.058823529409999999" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="TAw-Yr-qS9" kind="relationship" relationship="viewControllers" id="X0b-ps-eD9"/>
+                        <segue destination="K0q-TG-y1M" kind="relationship" relationship="viewControllers" id="2la-gd-Pnq"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Sxz-ft-m7V"/>
+                        <segue destination="yjb-2F-3xS" kind="relationship" relationship="viewControllers" id="XUR-0C-ehJ"/>
+                        <segue destination="RoU-HL-2a0" kind="relationship" relationship="viewControllers" id="v3t-v4-I9a"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4RS-d3-3iU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1066.4122137404579" y="19.718309859154932"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="PsG-a2-iOd">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ijl-My-JZ3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0ny-gS-5BN">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ZEZ-af-ci9" kind="relationship" relationship="rootViewController" id="Bh4-Fi-Rle"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kk0-gT-FOp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-732.06106870229007" y="19.718309859154932"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="fZM-hu-kVQ">
+            <objects>
+                <viewController id="I6k-pe-OvS" customClass="HomeViewController" customModule="TripItineraries" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sKn-L4-b2S">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradient" translatesAutoresizingMaskIntoConstraints="NO" id="xU9-uQ-qYU">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PurposeImage" translatesAutoresizingMaskIntoConstraints="NO" id="FMF-Zi-W2g">
+                                <rect key="frame" x="79" y="399.33333333333331" width="235" height="153.99999999999994"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="154" id="LL0-hA-UbV"/>
+                                    <constraint firstAttribute="width" constant="235" id="W9E-Gb-AKx"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0UI-oB-mdB">
+                                <rect key="frame" x="16" y="300.66666666666669" width="361" height="90.666666666666686"/>
+                                <string key="text">Trip Itineraries provides travel planning assistance for anyone arranging an exciting, fulfilling travel experience. Our travel itineraries include a detailed history of each country as well as fun descriptions of everything a traveler must see and experience while traveling to, from, or at a destination.</string>
+                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="13"/>
+                                <color key="textColor" red="0.058823529409999999" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l2p-nt-2HM">
+                                <rect key="frame" x="16" y="561.33333333333337" width="361" height="75.666666666666629"/>
+                                <string key="text">Each itinerary contains detailed day-by-day travel suggestions that includes points of interest, sight seeing, historical interests, destination descriptions and much more. The best time of year to travel, climate conditions and travel advisories are also included.</string>
+                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="13"/>
+                                <color key="textColor" red="0.058823529409999999" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ItinerariesImage" translatesAutoresizingMaskIntoConstraints="NO" id="zL2-Ot-VKG">
+                                <rect key="frame" x="79" y="645" width="235" height="157"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="157" id="BkY-67-YlE"/>
+                                    <constraint firstAttribute="width" constant="235" id="SJR-mO-qeK"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Trip Itineraries Logo" translatesAutoresizingMaskIntoConstraints="NO" id="85d-4t-M1M">
+                                <rect key="frame" x="76.666666666666686" y="59" width="240" height="181"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="181" id="8Uq-Je-Pjw"/>
+                                    <constraint firstAttribute="width" constant="240" id="JId-ON-Ogx"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Yly-QW-R4w"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Yly-QW-R4w" firstAttribute="bottom" secondItem="zL2-Ot-VKG" secondAttribute="bottom" constant="16" id="0fb-iI-cWy"/>
+                            <constraint firstItem="Yly-QW-R4w" firstAttribute="trailing" secondItem="zL2-Ot-VKG" secondAttribute="trailing" constant="79" id="3fj-p0-aFi"/>
+                            <constraint firstAttribute="bottom" secondItem="xU9-uQ-qYU" secondAttribute="bottom" id="3i7-44-ywv"/>
+                            <constraint firstItem="85d-4t-M1M" firstAttribute="top" secondItem="sKn-L4-b2S" secondAttribute="top" constant="59" id="4ew-04-dSt"/>
+                            <constraint firstItem="l2p-nt-2HM" firstAttribute="leading" secondItem="Yly-QW-R4w" secondAttribute="leading" constant="16" id="F5Q-Z4-uqW"/>
+                            <constraint firstItem="85d-4t-M1M" firstAttribute="centerX" secondItem="sKn-L4-b2S" secondAttribute="centerX" id="F81-fX-0HH"/>
+                            <constraint firstItem="zL2-Ot-VKG" firstAttribute="top" secondItem="l2p-nt-2HM" secondAttribute="bottom" constant="8" id="GBV-4m-CfB"/>
+                            <constraint firstItem="xU9-uQ-qYU" firstAttribute="leading" secondItem="Yly-QW-R4w" secondAttribute="leading" id="ISA-os-Vdo"/>
+                            <constraint firstItem="l2p-nt-2HM" firstAttribute="top" secondItem="FMF-Zi-W2g" secondAttribute="bottom" constant="8" id="MBN-Lz-2vH"/>
+                            <constraint firstItem="xU9-uQ-qYU" firstAttribute="top" secondItem="sKn-L4-b2S" secondAttribute="top" id="NLH-Xq-jTu"/>
+                            <constraint firstItem="FMF-Zi-W2g" firstAttribute="top" secondItem="0UI-oB-mdB" secondAttribute="bottom" constant="8" id="PFB-I6-g3w"/>
+                            <constraint firstItem="zL2-Ot-VKG" firstAttribute="leading" secondItem="Yly-QW-R4w" secondAttribute="leading" constant="79" id="QP5-X5-0Zy"/>
+                            <constraint firstItem="xU9-uQ-qYU" firstAttribute="trailing" secondItem="Yly-QW-R4w" secondAttribute="trailing" id="Y7l-Ft-HC5"/>
+                            <constraint firstItem="FMF-Zi-W2g" firstAttribute="centerX" secondItem="sKn-L4-b2S" secondAttribute="centerX" id="bFM-Mw-bFq"/>
+                            <constraint firstItem="Yly-QW-R4w" firstAttribute="trailing" secondItem="l2p-nt-2HM" secondAttribute="trailing" constant="16" id="bWx-ET-UwU"/>
+                            <constraint firstItem="Yly-QW-R4w" firstAttribute="trailing" secondItem="0UI-oB-mdB" secondAttribute="trailing" constant="16" id="pHP-F8-rbN"/>
+                            <constraint firstItem="0UI-oB-mdB" firstAttribute="leading" secondItem="Yly-QW-R4w" secondAttribute="leading" constant="16" id="rpM-FO-ByB"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="xvW-TR-JDh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wXy-lo-pBG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1303" y="-1292"/>
+        </scene>
+        <!--About Us-->
+        <scene sceneID="8sf-iG-xpw">
+            <objects>
+                <viewController id="2Eb-ji-RAD" customClass="AboutUsViewController" customModule="TripItineraries" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6PW-a0-Udn">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z6n-Pq-TDR">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="769"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NMM-gQ-Cjd">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5wX-RU-xXa">
+                                                <rect key="frame" x="8" y="43" width="377" height="260.33333333333331"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="377" id="6hD-Dw-gAM"/>
+                                                    <constraint firstAttribute="height" constant="260.32999999999998" id="Kxz-sh-IFm"/>
+                                                </constraints>
+                                                <string key="text">Trip Itineraries is a subsidiary of Education Systems LLC. Sharon Scott founded Education Systems in the early 1990s. Before Sharon passed away in 2021, she had been involved in travel for over 35 years, beginning as the director of a private post-secondary travel school. Under her guidance, she expanded a single travel school into a series of travel schools in the western United States. These schools eventually moved to an online format and are currently utilized by colleges and schools in the United States and Canada. Now owned by Deonna Weight, Education Systems is expanding by offering itineraries to help enhance anyone's travel experiences.</string>
+                                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="16"/>
+                                                <color key="textColor" red="0.015686274510000001" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eQQ-Xo-5YI">
+                                                <rect key="frame" x="16" y="578.33333333333337" width="361" height="90.666666666666629"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="90.670000000000002" id="Xti-aV-46g"/>
+                                                    <constraint firstAttribute="width" constant="361" id="uQO-Hd-NYA"/>
+                                                </constraints>
+                                                <string key="text">Deonna is a long-time employee and manager of Education Systems. She began as an instructor, providing subject matter expertise for Sabre™, Apollo™, and Fares and Tickets courses. Her favorite course is Destination Geography and loves learning about cultures and destinations around the world.</string>
+                                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="13"/>
+                                                <color key="textColor" red="0.015686274510000001" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQb-9u-Eew">
+                                                <rect key="frame" x="16" y="1156.6666666666667" width="361" height="60.666666666666742"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="361" id="Q9s-TO-l0X"/>
+                                                    <constraint firstAttribute="height" constant="60.670000000000002" id="nHa-QH-k6c"/>
+                                                </constraints>
+                                                <string key="text">Rebecca has been helping with various projects at Education Systems for over 20 years. She began stuffing envelopes and now helps manage data and beta tests online content.</string>
+                                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="13"/>
+                                                <color key="textColor" red="0.015686274510000001" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dOP-KQ-RIl">
+                                                <rect key="frame" x="16" y="901" width="361" height="75.666666666666629"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75.670000000000002" id="S3D-uk-GDW"/>
+                                                    <constraint firstAttribute="width" constant="361" id="r7W-gS-IOs"/>
+                                                </constraints>
+                                                <string key="text">Clarissa is a recent college graduate from Brigham Young University-Idaho. She majored in English and now works as both a freelance editor and administrative assistant. Clarissa's talents center around design and editing for both on and offline content.</string>
+                                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="13"/>
+                                                <color key="textColor" red="0.015686274510000001" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MJ is a recent graduate from Mountainland Technical College. He was hired on as a Junior iOS Developer intern to make our app." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nmQ-9a-YaJ">
+                                                <rect key="frame" x="16" y="1407.3333333333333" width="361" height="45.333333333333258"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="45.329999999999998" id="GHe-y5-a4p"/>
+                                                    <constraint firstAttribute="width" constant="361" id="lKa-bq-V82"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="13"/>
+                                                <color key="textColor" red="0.015686274510000001" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clarissa" translatesAutoresizingMaskIntoConstraints="NO" id="b0W-DX-q0E">
+                                                <rect key="frame" x="125" y="677" width="143" height="216"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="143" id="Kq5-aG-Gdb"/>
+                                                    <constraint firstAttribute="height" constant="216" id="XfA-8N-UMH"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" image="deonna" translatesAutoresizingMaskIntoConstraints="NO" id="p8O-zi-0gv">
+                                                <rect key="frame" x="124.66666666666669" y="311.33333333333331" width="144" height="258.99999999999994"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="144" id="VSg-CY-aRv"/>
+                                                    <constraint firstAttribute="height" constant="259" id="mSZ-CS-W64"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rebecca" translatesAutoresizingMaskIntoConstraints="NO" id="nCO-ug-Dig">
+                                                <rect key="frame" x="85.666666666666686" y="984.66666666666652" width="222" height="164"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="222" id="0YC-sg-BFg"/>
+                                                    <constraint firstAttribute="height" constant="164" id="V5y-qB-9hn"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mj" translatesAutoresizingMaskIntoConstraints="NO" id="ArU-p6-hyx">
+                                                <rect key="frame" x="80" y="1225.3333333333333" width="233" height="174"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="174" id="Wl5-dM-gOq"/>
+                                                    <constraint firstAttribute="width" constant="233" id="lde-ar-hLG"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cwx-15-ZUe">
+                                                <rect key="frame" x="134" y="0.0" width="125.33333333333331" height="35"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="125.33" id="dOu-Mf-OSR"/>
+                                                    <constraint firstAttribute="height" constant="35" id="hTP-tB-ai0"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="30"/>
+                                                <color key="textColor" red="0.058823529409999999" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="cQb-9u-Eew" secondAttribute="trailing" constant="16" id="1Df-NU-RCS"/>
+                                            <constraint firstItem="ArU-p6-hyx" firstAttribute="leading" secondItem="NMM-gQ-Cjd" secondAttribute="leading" constant="80" id="2aL-qD-66P"/>
+                                            <constraint firstItem="cQb-9u-Eew" firstAttribute="top" secondItem="nCO-ug-Dig" secondAttribute="bottom" constant="8" id="3ig-hg-cYy"/>
+                                            <constraint firstItem="dOP-KQ-RIl" firstAttribute="top" secondItem="b0W-DX-q0E" secondAttribute="bottom" constant="8" id="4Y8-Po-o2X"/>
+                                            <constraint firstItem="b0W-DX-q0E" firstAttribute="top" secondItem="eQQ-Xo-5YI" secondAttribute="bottom" constant="8" id="64r-Mb-IzM"/>
+                                            <constraint firstAttribute="trailing" secondItem="b0W-DX-q0E" secondAttribute="trailing" constant="125" id="85A-GR-WlA"/>
+                                            <constraint firstAttribute="trailing" secondItem="ArU-p6-hyx" secondAttribute="trailing" constant="80" id="8cA-Jc-Zps"/>
+                                            <constraint firstItem="5wX-RU-xXa" firstAttribute="top" secondItem="Cwx-15-ZUe" secondAttribute="bottom" constant="8" id="Au4-Ko-LPj"/>
+                                            <constraint firstAttribute="trailing" secondItem="dOP-KQ-RIl" secondAttribute="trailing" constant="16" id="EJp-N4-hV0"/>
+                                            <constraint firstItem="Cwx-15-ZUe" firstAttribute="top" secondItem="NMM-gQ-Cjd" secondAttribute="top" id="ERT-Jr-1zF"/>
+                                            <constraint firstAttribute="trailing" secondItem="eQQ-Xo-5YI" secondAttribute="trailing" constant="16" id="Jzx-bS-RVV"/>
+                                            <constraint firstItem="p8O-zi-0gv" firstAttribute="top" secondItem="5wX-RU-xXa" secondAttribute="bottom" constant="8" id="Oj4-82-j81"/>
+                                            <constraint firstItem="nCO-ug-Dig" firstAttribute="top" secondItem="dOP-KQ-RIl" secondAttribute="bottom" constant="8" id="POD-G0-Ais"/>
+                                            <constraint firstAttribute="trailing" secondItem="5wX-RU-xXa" secondAttribute="trailing" constant="8" id="Pgg-J4-DXf"/>
+                                            <constraint firstAttribute="trailing" secondItem="nCO-ug-Dig" secondAttribute="trailing" constant="85.5" id="RXc-B2-BAy"/>
+                                            <constraint firstItem="b0W-DX-q0E" firstAttribute="leading" secondItem="NMM-gQ-Cjd" secondAttribute="leading" constant="125" id="YSf-Ui-4I3"/>
+                                            <constraint firstItem="cQb-9u-Eew" firstAttribute="leading" secondItem="NMM-gQ-Cjd" secondAttribute="leading" constant="16" id="YZh-mM-LF9"/>
+                                            <constraint firstItem="5wX-RU-xXa" firstAttribute="leading" secondItem="NMM-gQ-Cjd" secondAttribute="leading" constant="8" id="d3a-b6-zI9"/>
+                                            <constraint firstItem="eQQ-Xo-5YI" firstAttribute="top" secondItem="p8O-zi-0gv" secondAttribute="bottom" constant="8" id="f7o-cU-2oU"/>
+                                            <constraint firstAttribute="trailing" secondItem="p8O-zi-0gv" secondAttribute="trailing" constant="124.5" id="h7V-dQ-Bbt"/>
+                                            <constraint firstItem="eQQ-Xo-5YI" firstAttribute="leading" secondItem="NMM-gQ-Cjd" secondAttribute="leading" constant="16" id="i3g-Zy-2Q4"/>
+                                            <constraint firstItem="p8O-zi-0gv" firstAttribute="leading" secondItem="NMM-gQ-Cjd" secondAttribute="leading" constant="124.5" id="k3R-mH-ElA"/>
+                                            <constraint firstItem="Cwx-15-ZUe" firstAttribute="centerX" secondItem="NMM-gQ-Cjd" secondAttribute="centerX" id="o14-kJ-vKD"/>
+                                            <constraint firstItem="ArU-p6-hyx" firstAttribute="top" secondItem="cQb-9u-Eew" secondAttribute="bottom" constant="8" id="oQn-SA-qDv"/>
+                                            <constraint firstItem="nCO-ug-Dig" firstAttribute="leading" secondItem="NMM-gQ-Cjd" secondAttribute="leading" constant="85.5" id="pjZ-Ng-Ctt"/>
+                                            <constraint firstItem="nmQ-9a-YaJ" firstAttribute="top" secondItem="ArU-p6-hyx" secondAttribute="bottom" constant="8" id="sFD-To-Mfw"/>
+                                            <constraint firstItem="dOP-KQ-RIl" firstAttribute="leading" secondItem="NMM-gQ-Cjd" secondAttribute="leading" constant="16" id="tbh-iG-EfO"/>
+                                            <constraint firstAttribute="height" constant="1500" id="ttV-XP-5hi"/>
+                                            <constraint firstItem="nmQ-9a-YaJ" firstAttribute="leading" secondItem="NMM-gQ-Cjd" secondAttribute="leading" constant="16" id="yx2-77-Ze3"/>
+                                            <constraint firstAttribute="trailing" secondItem="nmQ-9a-YaJ" secondAttribute="trailing" constant="16" id="zmU-Lt-xIg"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="NMM-gQ-Cjd" secondAttribute="trailing" id="Myc-cf-JG4"/>
+                                    <constraint firstAttribute="bottom" secondItem="NMM-gQ-Cjd" secondAttribute="bottom" id="OBW-Cw-WD9"/>
+                                    <constraint firstItem="NMM-gQ-Cjd" firstAttribute="leading" secondItem="z6n-Pq-TDR" secondAttribute="leading" id="gRU-aG-Ung"/>
+                                    <constraint firstItem="NMM-gQ-Cjd" firstAttribute="top" secondItem="z6n-Pq-TDR" secondAttribute="top" id="jlP-1y-hcR"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="f8m-aW-59d"/>
+                        <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="NMM-gQ-Cjd" firstAttribute="height" secondItem="6PW-a0-Udn" secondAttribute="height" multiplier="1.76056" id="1KZ-R1-bht"/>
+                            <constraint firstItem="z6n-Pq-TDR" firstAttribute="bottom" secondItem="f8m-aW-59d" secondAttribute="bottom" id="GYL-Uo-cdW"/>
+                            <constraint firstItem="z6n-Pq-TDR" firstAttribute="top" secondItem="6PW-a0-Udn" secondAttribute="top" id="Po2-O0-sv6"/>
+                            <constraint firstItem="NMM-gQ-Cjd" firstAttribute="width" secondItem="6PW-a0-Udn" secondAttribute="width" id="gGr-5t-Qtg"/>
+                            <constraint firstItem="z6n-Pq-TDR" firstAttribute="trailing" secondItem="f8m-aW-59d" secondAttribute="trailing" id="gOy-Fh-7hj"/>
+                            <constraint firstItem="z6n-Pq-TDR" firstAttribute="leading" secondItem="f8m-aW-59d" secondAttribute="leading" id="rRW-QH-hO9"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="About Us" image="info.square" catalog="system" id="j2n-Wh-EBZ"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="aboutUsLabel" destination="Cwx-15-ZUe" id="Oco-wi-NZE"/>
+                        <outlet property="clarissaImage" destination="b0W-DX-q0E" id="Cu7-lM-TK1"/>
+                        <outlet property="clarissaLabel" destination="dOP-KQ-RIl" id="qqb-Wf-pkV"/>
+                        <outlet property="deonnaImage" destination="p8O-zi-0gv" id="reZ-tK-w13"/>
+                        <outlet property="deonnaLabel" destination="eQQ-Xo-5YI" id="n3p-DQ-OL9"/>
+                        <outlet property="mjImage" destination="ArU-p6-hyx" id="fOf-Dm-i2h"/>
+                        <outlet property="mjLabel" destination="nmQ-9a-YaJ" id="RbR-fE-3Np"/>
+                        <outlet property="rebeccaImage" destination="nCO-ug-Dig" id="enN-ku-2iN"/>
+                        <outlet property="rebeccaLabel" destination="cQb-9u-Eew" id="aHz-Oq-f1U"/>
+                        <outlet property="scrollView" destination="z6n-Pq-TDR" id="gIU-pS-Zue"/>
+                        <outlet property="tripItinerariesLabel" destination="5wX-RU-xXa" id="oNu-jb-2Ug"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2XO-Ks-vCB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2680" y="677"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="cG3-5E-3nn"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="ItinerariesImage" width="585" height="388"/>
+        <image name="PurposeImage" width="2592" height="1728"/>
+        <image name="Trip Itineraries Logo" width="500" height="357"/>
+        <image name="aboutbg" width="1920" height="1200"/>
+        <image name="clarissa" width="1365" height="2048"/>
+        <image name="deonna" width="720" height="1280"/>
+        <image name="eye" catalog="system" width="128" height="79"/>
+        <image name="figure.walk" catalog="system" width="95" height="128"/>
+        <image name="gradient" width="1920" height="1080"/>
+        <image name="house" catalog="system" width="128" height="104"/>
+        <image name="info.square" catalog="system" width="128" height="114"/>
+        <image name="mappin.and.ellipse" catalog="system" width="110" height="128"/>
+        <image name="mj" width="4032" height="3024"/>
+        <image name="rebecca" width="2154" height="1607"/>
+        <image name="text.bubble" catalog="system" width="128" height="110"/>
+        <namedColor name="CustomLabelButtonAndTextColor">
+            <color red="0.058823529411764705" green="0.21568627450980393" blue="0.32941176470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

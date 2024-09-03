@@ -1,0 +1,713 @@
+{
+    "activities": [
+        {
+            "activity": "Arts",
+            "locations": [
+                "   Australia",
+                "   Brazil",
+                "   California",
+                "   England",
+                "   France",
+                "   Germany",
+                "   Greece",
+                "   Italy",
+                "   Japan",
+                "   Mexico",
+                "   New York",
+                "   Ontario",
+                "   Puerto Rico",
+                "   Quebec",
+            ]
+        },
+        {
+            "activity": "Beaches",
+            "locations": [
+                "   Australia",
+                "   Bahamas",
+                "   Belize",
+                "   Bermuda",
+                "   Brazil",
+                "   British Virgin Islands",
+                "   California",
+                "   Costa Rica",
+                "   Egypt",
+                "   Florida",
+                "   France",
+                "   French Polynesia",
+                "   Greece",
+                "   Hawaii",
+                "   Indonesia",
+                "   Israel",
+                "   Italy",
+                "   Jamaica",
+                "   Kenya",
+                "   Malaysia",
+                "   Maldives",
+                "   Mexico",
+                "   Morocco",
+                "   Panama",
+                "   Portugal",
+                "   Puerto Rico",
+                "   South Africa",
+                "   Spain",
+                "   St. Vincent and the Grenadines",
+                "   Thailand",
+                "   Turkey"
+            ]
+        },
+        {
+            "activity": "Desert",
+            "locations": [
+                "   Argentina",
+                "   Arizona",
+                "   Australia",
+                "   California",
+                "   Chile",
+                "   Egypt",
+                "   Israel",
+                "   Mexico",
+                "   Morocco",
+                "   United Arab Emirates (UAE)"
+            ]
+        },
+        {
+            "activity": "Dining",
+            "locations": [
+                "   Bahamas",
+                "   Bermuda",
+                "   Brazil",
+                "   British Columbia",
+                "   California",
+                "   Chile",
+                "   England",
+                "   Florida",
+                "   France",
+                "   Germany",
+                "   Greece",
+                "   Hawaii",
+                "   Hong Kong",
+                "   Indonesia",
+                "   Israel",
+                "   Italy",
+                "   Japan",
+                "   Maldives",
+                "   Mexico",
+                "   Morocco",
+                "   New York",
+                "   Portugal",
+                "   Puerto Rico",
+                "   Quebec",
+                "   Spain",
+                "   Thailand",
+                "   Turkey",
+                "   Vietnam"
+            ]
+        },
+        {
+            "activity": "Fall Foliage",
+            "locations": [
+                "   Quebec"
+            ]
+        },
+        {
+            "activity": "Fishing",
+            "locations": [
+                "   Alberta",
+                "   Argentina",
+                "   Arizona",
+                "   Bahamas",
+                "   Belize",
+                "   British Columbia",
+                "   California",
+                "   Costa Rica",
+                "   Florida",
+                "   Hawaii",
+                "   Jamaica",
+                "   Maldives",
+                "   Mexico",
+                "   New Zealand",
+                "   Ontario",
+                "   Quebec"
+            ]
+        },
+        {
+            "activity": "Gambling",
+            "locations": [
+                "   Bahamas",
+                "   Costa Rica",
+                "   Kenya",
+                "   Puerto Rico",
+                "   Spain"
+            ]
+        },
+        {
+            "activity": "Gardens",
+            "locations": [
+                "   Alberta",
+                "   Arizona",
+                "   Australia",
+                "   Bermuda",
+                "   Brazil",
+                "   British Columbia",
+                "   England",
+                "   France",
+                "   Germany",
+                "   India",
+                "   Japan",
+                "   Quebec",
+                "   St. Vincent and the Grenadines"
+            ]
+        },
+        {
+            "activity": "Glaciers",
+            "locations": [
+                "   Alberta",
+                "   Argentina",
+                "   British Columbia",
+                "   Chile"
+            ]
+        },
+        {
+            "activity": "Golf",
+            "locations": [
+                "   Arizona",
+                "   Bahamas",
+                "   Bermuda",
+                "   California",
+                "   Costa Rica",
+                "   Hawaii",
+                "   Mexico",
+                "   Puerto Rico"
+            ]
+        },
+        {
+            "activity": "Hiking",
+            "locations": [
+                "   Alberta",
+                "   Argentina",
+                "   Arizona",
+                "   Australia",
+                "   Belize",
+                "   British Columbia",
+                "   British Virgin Islands",
+                "   California",
+                "   Chile",
+                "   Costa Rica",
+                "   France",
+                "   French Polynesia",
+                "   Germany",
+                "   Guatemala",
+                "   Hawaii",
+                "   Indonesia",
+                "   Italy",
+                "   Japan",
+                "   Mexico",
+                "   New York",
+                "   New Zealand",
+                "   Ontario",
+                "   Panama",
+                "   Peru",
+                "   Quebec"
+            ]
+        },
+        {
+            "activity": "Historical and Cultural Sites/Ruins/Religious Sites",
+            "locations": [
+                "   Alberta",
+                "   Argentina",
+                "   Arizona",
+                "   Australia",
+                "   Belize",
+                "   Bermuda",
+                "   British Columbia",
+                "   British Virgin Islands",
+                "   California",
+                "   Cambodia",
+                "   Chile",
+                "   Costa Rica",
+                "   Czech Republic",
+                "   Egypt",
+                "   England",
+                "   Florida",
+                "   France",
+                "   French Polynesia",
+                "   Germany",
+                "   Greece",
+                "   Guatemala",
+                "   Hawaii",
+                "   India",
+                "   Indonesia",
+                "   Israel",
+                "   Italy",
+                "   Jamaica",
+                "   Japan",
+                "   Mexico",
+                "   New York",
+                "   Ontario",
+                "   Panama",
+                "   Peru",
+                "   Portugal",
+                "   Puerto Rico",
+                "   Quebec",
+                "   South Africa",
+                "   Spain",
+                "   Thailand",
+                "   Turkey",
+                "   United Arab Emirates (UAE)",
+                "   Vietnam"
+            ]
+        },
+        {
+            "activity": "Horseback Riding",
+            "locations": [
+                "   Arizona",
+                "   California",
+                "   Costa Rica"
+            ]
+        },
+        {
+            "activity": "Jungles",
+            "locations": [
+                "   Belize",
+                "   Brazil",
+                "   Costa Rica",
+                "   Guatemala",
+                "   Indonesia",
+                "   Malaysia",
+                "   Mexico",
+                "   Panama",
+                "   Vietnam"
+            ]
+        },
+        {
+            "activity": "Lakes",
+            "locations": [
+                "   Alberta",
+                "   Argentina",
+                "   Arizona",
+                "   British Columbia",
+                "   California",
+                "   Chile",
+                "   England",
+                "   Germany",
+                "   Guatemala",
+                "   Japan",
+                "   New York",
+                "   New Zealand",
+                "   Ontario",
+                "   Peru",
+                "   Quebec",
+                "   Turkey"
+            ]
+        },
+        {
+            "activity": "Mountains",
+            "locations": [
+                "   Alberta",
+                "   Argentina",
+                "   Arizona",
+                "   Australia",
+                "   Belize",
+                "   Brazil",
+                "   British Columbia",
+                "   California",
+                "   Cambodia",
+                "   Chile",
+                "   Costa Rica",
+                "   Czech Republic",
+                "   England",
+                "   France",
+                "   Germany",
+                "   Guatemala",
+                "   Hawaii",
+                "   Hong Kong",
+                "   Indonesia",
+                "   Italy",
+                "   Jamaica",
+                "   Malaysia",
+                "   Mexico",
+                "   Morocco",
+                "   New Zealand",
+                "   Ontario",
+                "   Panama",
+                "   Peru",
+                "   Quebec",
+                "   Spain",
+                "   Turkey",
+                "   United Arab Emirates (UAE)",
+                "   Vietnam"
+            ]
+        },
+        {
+            "activity": "Museums",
+            "locations": [
+                "   Argentina",
+                "   Arizona",
+                "   Australia",
+                "   Brazil",
+                "   California",
+                "   Costa Rica",
+                "   Egypt",
+                "   England",
+                "   Florida",
+                "   France",
+                "   Germany",
+                "   Greece",
+                "   Guatemala",
+                "   Hawaii",
+                "   India",
+                "   Italy",
+                "   Japan",
+                "   Mexico",
+                "   New York",
+                "   Panama",
+                "   Peru",
+                "   Puerto Rico",
+                "   Quebec",
+                "   Spain",
+                "   Thailand"
+            ]
+        },
+        {
+            "activity": "Night Life",
+            "locations": [
+                "   Argentina",
+                "   Australia",
+                "   Bahamas",
+                "   Bermuda",
+                "   Brazil",
+                "   California",
+                "   England",
+                "   Florida",
+                "   France",
+                "   Germany",
+                "   Hawaii",
+                "   Italy",
+                "   Japan",
+                "   Mexico",
+                "   New York",
+                "   Ontario",
+                "   Puerto Rico",
+                "   Quebec",
+                "   Spain"
+            ]
+        },
+        {
+            "activity": "Outdoor Activity",
+            "locations": [
+                "   Alberta",
+                "   Arizona",
+                "   Australia",
+                "   Bahamas",
+                "   Bermuda",
+                "   Brazil",
+                "   British Columbia",
+                "   California",
+                "   Costa Rica",
+                "   England",
+                "   Florida",
+                "   Germany",
+                "   Hawaii",
+                "   Italy",
+                "   Kenya",
+                "   Mexico",
+                "   New York",
+                "   Ontario",
+                "   Panama",
+                "   Puerto Rico",
+                "   Quebec",
+                "   South Africa"
+            ]
+        },
+        {
+            "activity": "Outdoor Scenery",
+            "locations": [
+                "   Alberta",
+                "   Argentina",
+                "   Arizona",
+                "   Australia",
+                "   Belize",
+                "   Brazil",
+                "   British Columbia",
+                "   California",
+                "   Cambodia",
+                "   Chile",
+                "   Costa Rica",
+                "   France",
+                "   Germany",
+                "   Greece",
+                "   Hawaii",
+                "   India",
+                "   Indonesia",
+                "   Israel",
+                "   Italy",
+                "   Jamaica",
+                "   Japan",
+                "   Kenya",
+                "   Malaysia",
+                "   Mexico",
+                "   New York",
+                "   New Zealand",
+                "   Ontario",
+                "   Panama",
+                "   Peru",
+                "   Portugal",
+                "   Quebec",
+                "   South Africa",
+                "   Spain",
+                "   St. Vincent and the Grenadines",
+                "   Thailand",
+                "   Turkey",
+                "   Vietnam"
+            ]
+        },
+        {
+            "activity": "Rafting",
+            "locations": [
+                "   Alberta",
+                "   Arizona",
+                "   Australia",
+                "   British Columbia",
+                "   California"
+            ]
+        },
+        {
+            "activity": "Rodeo",
+            "locations": [
+                "   Alberta"
+            ]
+        },
+        {
+            "activity": "Scuba Diving",
+            "locations": [
+                "   Australia",
+                "   Bahamas",
+                "   Belize",
+                "   Bermuda",
+                "   British Virgin Islands",
+                "   Costa Rica",
+                "   Egypt",
+                "   Florida",
+                "   French Polynesia",
+                "   Israel",
+                "   Jamaica",
+                "   Malaysia",
+                "   Maldives",
+                "   Mexico",
+                "   Puerto Rico",
+                "   Thailand"
+            ]
+        },
+        {
+            "activity": "Shopping",
+            "locations": [
+                "   Alberta",
+                "   Arizona",
+                "   Bahamas",
+                "   Bermuda",
+                "   Brazil",
+                "   British Columbia",
+                "   California",
+                "   Czech Republic",
+                "   England",
+                "   France",
+                "   Germany",
+                "   Greece",
+                "   Hawaii",
+                "   Hong Kong",
+                "   India",
+                "   Indonesia",
+                "   Italy",
+                "   Jamaica",
+                "   Japan",
+                "   Malaysia",
+                "   Maldives",
+                "   Mexico",
+                "   Morocco",
+                "   New York",
+                "   Ontario",
+                "   Portugal",
+                "   Quebec",
+                "   South Africa",
+                "   Spain",
+                "   St. Vincent and the Grenadines",
+                "   Turkey"
+            ]
+        },
+        {
+            "activity": "Snow Skiing",
+            "locations": [
+                "   Alberta",
+                "   Argentina",
+                "   British Columbia",
+                "   California",
+                "   Chile",
+                "   France",
+                "   Germany",
+                "   Italy",
+                "   Japan",
+                "   Ontario",
+                "   Quebec",
+                "   Spain"
+            ]
+        },
+        {
+            "activity": "Snorkeling",
+            "locations": [
+                "   Australia",
+                "   Bahamas",
+                "   Belize",
+                "   Bermuda",
+                "   British Virgin Islands",
+                "   Brazil",
+                "   Costa Rica",
+                "   French Polynesia",
+                "   Hawaii",
+                "   Jamaica",
+                "   Kenya",
+                "   Mexico",
+                "   Puerto Rico"
+            ]
+        },
+        {
+            "activity": "Spas",
+            "locations": [
+                "   Arizona",
+                "   Czech Republic"
+            ]
+        },
+        {
+            "activity": "Swamps",
+            "locations": [
+                "   Florida",
+                "   Kenya"
+            ]
+        },
+        {
+            "activity": "Tennis",
+            "locations": [
+                "   Arizona",
+                "   Bahamas",
+                "   Bermuda",
+                "   California",
+                "   Hawaii",
+                "   Mexico",
+                "   Puerto Rico"
+            ]
+        },
+        {
+            "activity": "Theme Parks",
+            "locations": [
+                "   California",
+                "   Florida",
+                "   Hong Kong",
+                "   Japan"
+            ]
+        },
+        {
+            "activity": "Tropical Rain Forests",
+            "locations": [
+                "   Belize",
+                "   Brazil",
+                "   Costa Rica",
+                "   Indonesia",
+                "   Panama",
+                "   Peru",
+                "   Puerto Rico"
+            ]
+        },
+        {
+            "activity": "Vineyards",
+            "locations": [
+                "   California",
+                "   France",
+                "   Germany",
+                "   Italy",
+                "   New York"
+            ]
+        },
+        {
+            "activity": "Volcanoes",
+            "locations": [
+                "   French Polynesia",
+                "   Guatemala",
+                "   Hawaii",
+                "   Indonesia",
+                "   Panama",
+                "   St. Vincent and the Grenadines"
+            ]
+        },
+        {
+            "activity": "Water Sports",
+            "locations": [
+                "   Arizona",
+                "   Australia",
+                "   Bahamas",
+                "   California",
+                "   Costa Rica",
+                "   Egypt",
+                "   Florida",
+                "   Hawaii",
+                "   Mexico",
+                "   Panama"
+            ]
+        },
+        {
+            "activity": "Waterfalls",
+            "locations": [
+                "   Alberta",
+                "   Argentina",
+                "   Brazil",
+                "   British Columbia",
+                "   California",
+                "   Costa Rica",
+                "   Hawaii",
+                "   Jamaica",
+                "   Japan",
+                "   Malaysia",
+                "   New York",
+                "   Ontario",
+                "   Puerto Rico",
+                "   Quebec"
+            ]
+        },
+        {
+            "activity": "Whale Watching",
+            "locations": [
+                "   British Columbia",
+                "   Quebec"
+            ]
+        },
+        {
+            "activity": "Wine Tasting",
+            "locations": [
+                "   California",
+                "   France",
+                "   Germany",
+                "   Italy",
+                "   New York"
+            ]
+        },
+        {
+            "activity": "Zoo/Wildlife",
+            "locations": [
+                "   Argentina",
+                "   Australia",
+                "   Belize",
+                "   Bermuda",
+                "   California",
+                "   Chile",
+                "   Costa Rica",
+                "   Florida",
+                "   Indonesia",
+                "   Jamaica",
+                "   Japan",
+                "   Kenya",
+                "   Malaysia",
+                "   Mexico",
+                "   New York",
+                "   Panama"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,264 @@
+{
+    "continents": [
+        {
+            "location": "Africa",
+            "countries": [
+                {
+                    "location": "   Egypt",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/egypt.pdf"
+                },
+                {
+                    "location": "   Kenya",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/kenya.pdf"
+                },
+                {
+                    "location": "   Morocco",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/morocco.pdf"
+                },
+                {
+                    "location": "   South Africa",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/southafrica.pdf"
+                }
+            ]
+        },
+        {
+            "location": "Asia",
+            "countries": [
+                {
+                    "location": "   Cambodia",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/cambodia.pdf"
+                },
+                {
+                    "location": "   Hong Kong",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/hongkong.pdf"
+                },
+                {
+                    "location": "   India",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/india.pdf"
+                },
+                {
+                    "location": "   Japan",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/japan.pdf"
+                },
+                {
+                    "location": "   Maldives",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/maldives.pdf"
+                },
+                {
+                    "location": "   Thailand",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/thailand.pdf"
+                },
+                {
+                    "location": "   Vietnam",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/vietnam.pdf"
+                }
+            ]
+        },
+        {
+            "location": "Caribbean, Bermuda, Bahamas",
+            "countries": [
+                {
+                    "location": "   Bahamas",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/bahamas.pdf"
+                },
+                {
+                    "location": "   Bermuda",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/bermuda.pdf"
+                },
+                {
+                    "location": "   British Virgin Islands",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/bvi.pdf"
+                },
+                {
+                    "location": "   Jamaica",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/jamica.pdf"
+                },
+                {
+                    "location": "   Puerto Rico",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/puertorico.pdf"
+                },
+                {
+                    "location": "   St. Vincent and the Grenadines",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/stvincent.pdf"
+                }
+            ]
+        },
+        {
+            "location": "Central America",
+            "countries": [
+                {
+                    "location": "   Belize",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/belize.pdf"
+                },
+                {
+                    "location": "   Costa Rica",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/costarica.pdf"
+                },
+                {
+                    "location": "   Guatemala",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/guatamala.pdf"
+                },
+                {
+                    "location": "   Panama",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/panama.pdf"
+                }
+            ]
+        },
+        {
+            "location": "Europe",
+            "countries": [
+                {
+                    "location": "   Czech Republic",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/czechrepublic.pdf"
+                },
+                {
+                    "location": "   England",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/england.pdf"
+                },
+                {
+                    "location": "   France",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/france.pdf"
+                },
+                {
+                    "location": "   Germany",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/germany.pdf"
+                },
+                {
+                    "location": "   Greece",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/greece.pdf"
+                },
+                {
+                    "location": "   Italy",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/italy.pdf"
+                },
+                {
+                    "location": "   Portugal",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/portugal.pdf"
+                },
+                {
+                    "location": "   Spain",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/spain.pdf"
+                },
+                {
+                    "location": "   Turkey",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/turkey.pdf"
+                }
+            ]
+        },
+        {
+            "location": "Middle East",
+            "countries": [
+                {
+                    "location": "   Israel",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/israel.pdf"
+                },
+                {
+                    "location": "   United Arab Emirates (UAE)",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/unitedarabemirates.pdf"
+                }
+            ]
+        },
+        {
+            "location": "North America",
+            "countries": [
+                {
+                    "location": "   Canada",
+                    "regions": [
+                        {
+                            "location": "       Alberta",
+                            "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/alberta.pdf"
+                        },
+                        {
+                            "location": "       British Columbia",
+                            "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/bc.pdf"
+                        },
+                        {
+                            "location": "       Ontario",
+                            "pdfLink": "https://travelcampus.com/classroom/Geo2020/ontario.pdf"
+                        },
+                        {
+                            "location": "       Quebec",
+                            "pdfLink": "https://travelcampus.com/classroom/Geo2020/quebec.pdf"
+                        }
+                    ]
+                },
+                {
+                    "id": "   Mexico",
+                    "location": "   Mexico",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/mexico.pdf"
+                },
+                {
+                    "location": "   United States",
+                    "regions": [
+                        {
+                            "location": "       Arizona",
+                            "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/arizona.pdf"
+                        },
+                        {
+                            "location": "       California",
+                            "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/california.pdf"
+                        },
+                        {
+                            "location": "       Florida",
+                            "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/florida.pdf"
+                        },
+                        {
+                            "location": "       Hawaii",
+                            "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/hawaii.pdf"
+                        },
+                        {
+                            "location": "       New York",
+                            "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/newyork.pdf"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "location": "South America",
+            "countries": [
+                {
+                    "location": "   Argentina",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/argentina.pdf"
+                },
+                {
+                    "location": "   Brazil",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/brazil.pdf"
+                },
+                {
+                    "location": "   Chile",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/chile.pdf"
+                },
+                {
+                    "location": "   Peru",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/peru.pdf"
+                }
+            ]
+        },
+        {
+            "location": "South Pacific and Island Nations",
+            "countries": [
+                {
+                    "location": "   Australia",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/australia.pdf"
+                },
+                {
+                    "location": "   French Polynesia",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/frenchpolynesia.pdf"
+                },
+                {
+                    "location": "   Indonesia",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/indonesia.pdf"
+                },
+                {
+                    "location": "   Malaysia",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/malaysia.pdf"
+                },
+                {
+                    "location": "   New Zealand",
+                    "pdfLink": "https://www.travelcampus.com/classroom/Geo2020/newzealand.pdf"
+                }
+            ]
+        }
+    ]
+}
